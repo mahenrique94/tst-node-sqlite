@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "module": "ESNext",
+    "moduleDetection": "auto",
+    "moduleResolution": "node",
+    "target": "ESNext"
+  },
+  "include": ["./src/**/*.ts"]
+}

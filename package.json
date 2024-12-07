@@ -1,0 +1,31 @@
+{
+  "name": "tst-node-sqlite",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "tsx --experimental-sqlite ./src/index.ts",
+    "start:dev": "tsx --experimental-sqlite --watch ./src/index.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "Node.js",
+    "SQLITE",
+    "TSX"
+  ],
+  "author": "Matheus Castiglioni",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "fastify": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.23.8"
+  },
+  "type": "module"
+}
